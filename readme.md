@@ -15,7 +15,7 @@
 docker compose up -d --build
 ```
 ---------------
-** Для проверки: **   
+**Для проверки:**   
 Проверка логов запуска:   
 
 ```
@@ -29,10 +29,10 @@ curl http://localhost
 **"Hello from Effective Mobile!"**
 
 Краткая схема:   
-[ Client ]   
-     |           
-     v          
-[ Nginx :80 ]    
-     |         
-     v         
+[ Client ]
+     |
+     v
+[ Nginx :80 ]
+     |
+     v
 [ Backend :8080 ]
